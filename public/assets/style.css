@@ -6,7 +6,8 @@
 }
 
 body {
-  padding: 0px 50px;
+  padding   : 0px 50px;
+  background: #8800884f;
 }
 
 
@@ -22,7 +23,7 @@ header p {
   margin-top  : 5px;
   padding-left: 3px;
   font-size   : 16px;
-  color       : #808080a2;
+  color       : #fff7;
 
 }
 
@@ -48,14 +49,13 @@ ul li {
   display         : flex;
   justify-content : center;
   align-items     : center;
-  background-color: #80808022;
+  background-color: #808a;
   transition      : all ease-out 150ms;
 
   &:hover {
-    background-color: #808a;
-    color           : #fff;
+    background-color: transparent;
 
-    a {
+    /* a {
       h3 {
         color: white;
       }
@@ -63,7 +63,7 @@ ul li {
       p {
         color: white;
       }
-    }
+    } */
   }
 
   & a {
@@ -74,13 +74,13 @@ ul li {
       font-size    : 16px;
       text-align   : center;
       margin-bottom: 10px;
-      color        : #000
+      color        : #fff
     }
 
     p {
       font-size : 14px;
       text-align: center;
-      color     : rgba(128, 128, 128, 0.774);
+      color     : #e2dddd;
     }
   }
 }
